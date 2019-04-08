@@ -3,37 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <title>Form</title>
-    <link rel="stylesheet" href="styles/main.css"/>
+    <link rel="stylesheet" href="styles/form.css"/>
 </head>
 <body>
-<form action="#" method="get">
-    <div><label for="firstname">First Name</label>
+<form class="myForm" action="#" method="get">
+    <div class="formGroup"><label for="firstname">First Name</label>
         <input type="text" name="firstName" id="firstname"></div>
-    <div><label for="lastname">Last Name</label>
+    <div class="formGroup"><label for="lastname">Last Name</label>
         <input type="text" name="lastName" id="lastname"></div>
-    <div><label for="age">Age</label>
+    <div class="formGroup"><label for="age">Age</label>
         <input type="number" name="age" id="age"></div>
-    <div><label for="born">Date of birth</label>
+    <div class="formGroup"><label for="born">Date of birth</label>
         <input type="date" name="born" id="born"></div>
-    <div><label for="email">Email</label>
+    <div class="formGroup"><label for="email">Email</label>
         <input type="email" name="email" id="email"></div>
-    <div><label for="message">Message</label><br/>
+    <div class="formGroup"><label for="message">Message</label>
         <textarea name="massage" id="message"></textarea></div>
-    <div>
+    <div class="subGroup">
         <fieldset>
             <legend>Gender</legend>
             <input type="radio" name="gender" id="female" value="female" checked><label for="female">Female</label>
             <br/>
             <input type="radio" name="gender" id="male" value="male"><label for="male">Male</label></fieldset>
     </div>
-    <div>
+    <div class="subGroup">
         <fieldset>
             <legend>Languages</legend>
             <input type="checkbox" name="java" id="java"><label for="java">Java</label><br/>
             <input type="checkbox" name="javascript" id="javascript"><label for="javascript">JavaScript</label><br/>
             <input type="checkbox" name="sql" id="sql"><label for="sql">SQL</label><br/></fieldset>
     </div>
-    <div><input type="submit" name="Submit Data" id="submit">
+    <div class="formGroup"><input type="submit" value="Submit Data" id="submit">
         <input type="reset" name="Reset" id="reset"></div>
 </form>
 

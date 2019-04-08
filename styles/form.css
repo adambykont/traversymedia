@@ -1,0 +1,19 @@
+body {
+    background: lightyellow;
+}
+
+.myForm {
+    padding: 20px;
+}
+
+.myForm .formGroup {
+    padding-bottom: 15px;
+}
+
+.myForm .formGroup label {
+    display: block;
+}
+
+.myForm .subGroup label {
+    display: inline;
+}
