@@ -1,31 +1,8 @@
-h1, h2, h3 {
+h1 {
     color: darkgray;
 }
 
-.box-1 {
-    background-color: lemonchiffon;
-    color: black;
-}
 
-.container {
-    margin: auto;
-    /*width: 960px;*/
-    width: 98%;
-}
-
-.categories {
-    padding: 0 0 0 20px;
-    border: 1px solid black;
-}
-
-.categories h2{
-    color: red;
-    padding: 0;
-}
-
-.categories ul{
-    list-style: none;
-}
 
 body {
     background-color: beige;
