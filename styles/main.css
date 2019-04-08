@@ -18,12 +18,12 @@ h1, h2, h3 {
     border: 1px solid black;
 }
 
-.categories h2{
+.categories h2 {
     color: red;
     padding: 0;
 }
 
-.categories ul{
+.categories ul {
     list-style: none;
 }
 
@@ -31,4 +31,17 @@ body {
     background-color: beige;
     color: darkorchid;
     font-family: Arial, Helvetica, SansSerif, sans-serif;
+}
+
+.text-box {
+    float: left;
+    width: 20%;
+    border: 1px black solid;
+    padding: 5px;
+    color: black;
+}
+
+.clr {
+    padding: 20px;
+    clear: both;
 }
