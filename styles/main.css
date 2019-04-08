@@ -1,3 +1,11 @@
 h1 {
-    color: orange;
+    color: darkgray;
+}
+
+
+
+body {
+    background-color: beige;
+    color: darkorchid;
+    font-family: Arial, Helvetica, SansSerif, sans-serif;
 }
