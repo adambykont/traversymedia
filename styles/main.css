@@ -45,3 +45,19 @@ body {
     padding: 20px;
     clear: both;
 }
+
+#main {
+    width: 60%;
+    float: left;
+}
+
+#sidebar {
+    width: 20%;
+    float: right;
+    background-color: black;
+}
+
+#sidebar p, h1, h2, h3 {
+    font-weight: bold;
+    color: white;
+}
