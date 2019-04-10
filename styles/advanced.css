@@ -26,13 +26,13 @@ body {
 }
 
 .container {
-
+width: 100%;
 }
 
 .nav {
     background-color: lightgray;
     float: left;
-    width: 200px;
+    width: 20%;
 }
 
 .nav li {
@@ -42,6 +42,6 @@ body {
 .main {
     background-color: antiquewhite;
     float: right;
-    width: 720px;
+    width: 70%;
     padding: 1% 2% 1% 2%;
 }
