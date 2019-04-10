@@ -1,0 +1,47 @@
+body {
+    background-color: lemonchiffon;
+}
+
+.page {
+    width: 960px;
+    margin: auto;
+}
+
+.header {
+    background-color: black;
+    padding: 1px 30px 1px 30px;
+}
+
+.header h1, h2, h3 {
+    font-family: Arial, Helvetica, SansSerif, sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: darkolivegreen;
+    clear: both;
+    text-align: center;
+    padding: 1px;
+}
+
+.container {
+width: 100%;
+}
+
+.nav {
+    background-color: lightgray;
+    float: left;
+    width: 20%;
+}
+
+.nav li {
+    list-style-type: none;
+}
+
+.main {
+    background-color: antiquewhite;
+    float: right;
+    width: 70%;
+    padding: 1% 2% 1% 2%;
+}
